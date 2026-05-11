@@ -24,7 +24,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from stable_baselines3 import PPO
 import math
-import os
 from stable_baselines3.common.callbacks import CheckpointCallback
 
 class SafetyGuard:
@@ -1682,9 +1681,6 @@ class EVStartupEnv(gym.Env):
 if __name__ == "__main__":
 
     env = EVStartupEnv()
-
-    if os.path.exists("env_startup_v1.zip"):
-        os.remove("env_startup_v1.zip")
 
     checkpoint = CheckpointCallback(
     save_freq=300000,
