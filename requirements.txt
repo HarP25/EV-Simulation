@@ -1,0 +1,7 @@
+gymnasium 
+stable-baselines3 
+python 
+matplotlib
+numpy
+pandas
+streamlit
