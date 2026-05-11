@@ -1,6 +1,5 @@
 gymnasium 
-stable-baselines3 
-python 
+stable-baselines3
 matplotlib
 numpy
 pandas
