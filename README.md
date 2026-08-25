@@ -4,7 +4,7 @@ An RL-based EV powertrain controller that
 generalizes across real-world conditions.
 
 ## What It Does
-- Manages motor torque across 0-12° slopes
+- Manages motor torque across 0-12° slopes,
 - Maintains battery temperature in optimal 20-30°C window
 - Predictive regenerative braking before obstacles
 - Full ADAS suite: AEB, TC, ABS, ESC, ACC, TPMS
